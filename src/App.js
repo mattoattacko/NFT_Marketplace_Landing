@@ -12,14 +12,33 @@ const App = () => {
         mockupImg={assets.homeHero}
         banner='banner'
       />
+
       <SectionWrapper 
         title="Smart User Interface Marketplace"
         description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
         mockupImg={assets.homeCards}
         reverse
-      />
+      />   
 
       <Features />
+
+      <SectionWrapper 
+        title="Deployment"
+        description="ProNef is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands."
+        showBtn
+        mockupImg={assets.feature}
+        reverse
+      />
+      
+      <SectionWrapper 
+        title="Creative ways to showcase the store"
+        description="The app contains two screens. The first lists all NFTs, while the second screen shows the details of the NFT."
+        mockupImg={assets.mockup}
+        banner='banner02'
+      />
+
+      <Download />
+     
     </>
 
   );
