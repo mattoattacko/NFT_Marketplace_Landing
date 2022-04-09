@@ -31,7 +31,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           {showBtn && (
             <Button
               assetUrl={assets.expo}
-              link='deployed nft marketplace RN'
+              link='https://expo.dev/@mattoattacko/nft-marketplace?serviceType=classic&distribution=expo-go'
             />
           )}
         </div>
